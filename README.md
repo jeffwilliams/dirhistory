@@ -1,5 +1,7 @@
 # dirhistory - Bash Directory History
 
+<a href="https://asciinema.org/a/vHDgS2rppNgb8bVbWAvcbKuzz" target="_blank"><img src="https://asciinema.org/a/vHDgS2rppNgb8bVbWAvcbKuzz.png" width="640"/></a>
+
 This script overrides the bash cd command so that it saves the previous 
 directory to a directory history. ALT-Left then moves back to previous 
 directories in the history, and ALT-Right moves forward. ALT-Up changes 
