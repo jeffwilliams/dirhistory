@@ -153,22 +153,32 @@ define_mappings() {
   # xterm in normal mode
   bind '"\e[3D"':$'"\201\C-m"'
   bind '"\e[1;3D"':$'"\201\C-m"'
+  # rxvt-unicode
+  bind '"\e\e[D"':$'"\201\C-m"'
+  # rxvt-unicode over mosh
+  bind '"\e\eOD"':$'"\201\C-m"'
   # GNU screen:
   bind '"\eO3D"':$'"\201\C-m"'
-  
+
   # Forward
   bind '"\e[3C"':$'"\202\C-m"'
   bind '"\e[1;3C"':$'"\202\C-m"'
+  bind '"\e\e[C"':$'"\202\C-m"'
+  bind '"\e\eOC"':$'"\202\C-m"'
   bind '"\eO3C"':$'"\202\C-m"'
-  
+
   # Up
   bind '"\e[3A"':$'"\203\C-m"'
   bind '"\e[1;3A"':$'"\203\C-m"'
+  bind '"\e\e[A"':$'"\203\C-m"'
+  bind '"\e\eOA"':$'"\203\C-m"'
   bind '"\eO3A"':$'"\203\C-m"'
 
   # Display
   bind '"\e[3B"':$'"\204\C-m"'
   bind '"\e[1;3B"':$'"\204\C-m"'
+  bind '"\e\e[B"':$'"\204\C-m"'
+  bind '"\e\eOB"':$'"\204\C-m"'
   bind '"\eO3B"':$'"\204\C-m"'
 
 }
